@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.mdc-persistent-drawer__toolbar-spacer{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-align: flex-center;
+  -ms-flex-align: flex-center;
+  align-items: flex-center;
+  /*height: 56px;*/
+  padding: 16px;
+  padding-left:0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+}
+
+.mat-list-item-content{
+
+}
+.mat-list-item-content{
+  padding: 0!important;
+  margin-right: 16px;
+  margin-left: 16px;
+}

@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  linksNav1=[
+      {item:'Inbox',logo:'inbox'},
+      {item:'Start',logo:'start'},
+      {item:'Sent Mail',logo:'send'}
+    ];
+  linksNav2=[
+      {item:'Draft',logo:'drafts'},
+      {item:'All Mail',logo:'email'},
+      {item:'Trash',logo:'delete'},
+      {item:'Spam',logo:'report'}
+    ];
 }

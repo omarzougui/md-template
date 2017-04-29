@@ -1,0 +1,19 @@
+.example-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.nav-link{
+  padding-right: 64px!important;
+}
+
+.mat-list-item-content{
+  padding: 0!important;
+}
