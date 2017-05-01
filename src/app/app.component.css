@@ -3,11 +3,10 @@
   height: 100vh;
 }
 
-.example-sidenav-content {
-  display: flex;
+.nav-content {
+  display: inline-block;
   height: 100%;
-  align-items: flex-start;
-  justify-content: flex-start;
+
 }
 
 .nav-link{
